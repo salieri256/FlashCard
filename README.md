@@ -1,5 +1,5 @@
 # FlashCard
-暗記カードアプリです。絶賛開発途中
+暗記カードアプリです。Electronを使ってデスクトップアプリ化しました。絶賛開発中!!
 
 [GitHub Pages](https://salieri256.github.io/FlashCard/src/)
 
