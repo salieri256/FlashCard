@@ -1,5 +1,8 @@
 # FlashCard
 暗記カードアプリです。絶賛開発途中
+
+[GitHub Pages](https://salieri256.github.io/FlashCard/src/)
+
 ![mainscreen](https://user-images.githubusercontent.com/56764525/102016503-b2e1b780-3da4-11eb-8e78-d325575738a8.png)
 
 ## Download
