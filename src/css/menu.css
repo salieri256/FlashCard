@@ -1,0 +1,62 @@
+.menu-container {
+    /* メニューの使える領域は画面の下半分のみ */
+    width: 100%;
+    height: 50%;
+
+    background: var(--menu-container-color);
+    
+    overflow: hidden;
+}
+
+.menu {
+    min-width: 609px;
+    padding: 0px;
+
+    /* 子要素を等間隔で配置 */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu > * {
+    min-width: 200px;
+    height: 50px;
+    margin: 0px 20px;
+
+    background: var(--menu-color);
+    color: var(--menu-text-color);
+
+    /* 角丸 */
+    border-radius: 2px;
+
+    /* 文字間隔 */
+    letter-spacing: 2px;
+
+    /* リストの点を消す */
+    list-style: none;
+
+    /* ホバー時のアニメーションをこの時間かけてする */
+    transition: 0.1s;
+
+    /* 文字を選択できないようにする */
+    user-select: none;
+}
+
+/* カーソルが上に来たら色を濃くする */
+.menu > *:hover {
+    background: var(--menu-onhover);
+}
+
+/* 無効化 */
+.disabled, .disabled:hover {
+    background: var(--menu-disabled-color);
+    color: var(--menu-disabled-text-color);
+}
+
+#input-file {
+    display: none;
+}
+
+.menu > * > label {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,42 @@
+:root {
+    --app-color: #455a64;/* 背景色 */
+    --card-container-color: white;/* カード領域の色 */
+    --card-color: #ffffff;/* カードの色 */
+    --menu-container-color: transparent;/* メニュー領域の色 */
+    --menu-color: white;/* メニューの色 */
+    --menu-onhover: #b0bec5;/* メニューの上にカーソルが来たときの色 */
+    --menu-text-color: #455a64;/* メニューの文字の色 */
+    --menu-disabled-color: #37474f;/* 無効なメニューの色 */
+    --menu-disabled-text-color: #263238;/* 無効なメニューの文字の色 */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+
+    background-color: var(--app-color);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow {
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
