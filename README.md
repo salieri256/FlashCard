@@ -4,9 +4,11 @@
 
 ## Download
 - Windows
+
 [Google Drive](https://drive.google.com/file/d/1lIvORFx0-OFzQyu93B2vGYYFxoLUqCHY/view?usp=sharing)
 
 - Mac
+
 なし
 
 ## Usage
